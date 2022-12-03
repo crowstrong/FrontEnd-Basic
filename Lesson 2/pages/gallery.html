@@ -5,83 +5,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Pizza Gallery</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="../img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
     <header>
-        <h1>All about Pizza</h1>
-        <nav><a href="./index.html">Home</a> | <a href="./pages/about.html" target="_blank">About
-                Pizza</a> | <a href=".pages/contact.html" target="_blank">Contact</a> | <a
-                href="./pages/gallery.html" target="_blank">Pizza Galerry</a>
+        <img src="../img/pizza_logo.png" alt="no logo">
+        <h2 id="logo-style">All about Pizza</h2>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/about.html" target="_self">About Pizza</a></li>
+                <li><a href="../pages/contact.html" target="_self">Contact</a></li>
+                <li><a href="../pages/gallery.html" target="_self">Pizza Galerry</a></li>
+            </ul>
         </nav>
     </header>
     <main>
         <h1>Pizza Galerry</h1>
         <br>
-        <table align="center">
-            <tr>
-                <td>
-                    <img src="./img/gallery/bacon.jpeg" alt="no pizza" height="350" width="400" alt="no pizza">
-                </td>
-                <td>
-                    <img src="./img/gallery/beef.jpeg" alt="no pizza" height="350" width="400" alt="no pizza">
-                </td>
-                <td>
-                    <img src="./img/gallery/black_olives.jpeg" alt="no pizza" height="350" width="400" alt="no pizza">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="./img/gallery/chicken.jpeg" alt="no pizza" height="350" width="400" alt="no pizza">
-                </td>
-                <td>
-                    <img src="./img/gallery/extra_cheese.jpeg" alt="no pizza" height="350" width="400" alt="no pizza">
-                </td>
-                <td>
-                    <img src="./img/gallery/fresh_basil.jpeg" alt="no pizza" height="350" width="400" alt="no pizza">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="./img/gallery/ham.jpeg" alt="no pizza" height="350" width="400" alt="no pizza">
-                </td>
-                <td>
-                    <img src="./img/gallery/mushrooms.jpeg" alt="no pizza" height="350" width="400" alt="no pizza">
-                </td>
-                <td>
-                    <img src="./img/gallery/onions.jpeg" alt="no pizza" height="350" width="400" alt="no pizza">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="./img/gallery/pepperoni.jpeg" alt="no pizza" height="350" width="400" alt="no pizza">
-                </td>
-                <td>
-                    <img src="./img/gallery/peppers.jpeg" alt="no pizza" height="350" width="400" alt="no pizza">
-                </td>
-                <td>
-                    <img src="./img/gallery/pesto.jpeg" alt="no pizza" height="350" width="400" alt="no pizza">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="./img/gallery/pineapple.jpeg" alt="no pizza" height="350" width="400" alt="no pizza">
-                </td>
-                <td>
-                    <img src="./img/gallery/sausage.jpeg" alt="no pizza" height="350" width="400" alt="no pizza">
-                </td>
-                <td>
-                    <img src="./img/gallery/spinach.jpeg" alt="no pizza" height="350" width="400" alt="no pizza">
-                </td>
-            </tr>
-        </table>
+        <div class="container">
+            <div class="gallery">
+                <img src="../img/gallery/bacon.jpeg" alt="no pizza">
+                <div class="desc">Bacon Pizza</div>
+            </div>
+            <div class="gallery">
+                <img src="../img/gallery/beef.jpeg" alt="no pizza">
+                <div class="desc">Beef Pizza</div>
+            </div>
+            <div class="gallery">
+                <img src="../img/gallery/black_olives.jpeg" alt="no pizza">
+                <div class="desc">Pizza with black olives</div>
+            </div>
+            <div class="gallery">
+                <img src="../img/gallery/chicken.jpeg" alt="no pizza">
+                <div class="desc">Chicken Pizza</div>
+            </div>
+            <div class="gallery">
+                <img src="../img/gallery/extra_cheese.jpeg" alt="no pizza">
+                <div class="desc">Extra Cheese Pizza</div>
+            </div>
+            <div class="gallery">
+                <img src="../img/gallery/fresh_basil.jpeg" alt="no pizza">
+                <div class="desc">Basil Pizza</div>
+            </div>
+            <div class="gallery">
+                <img src="../img/gallery/ham.jpeg" alt="no pizza">
+                <div class="desc">Ham Pizza</div>
+            </div>
+            <div class="gallery">
+                <img src="../img/gallery/mushrooms.jpeg" alt="no pizza">
+                <div class="desc">Mushrooms Pizza</div>
+            </div>
+            <div class="gallery">
+                <img src="../img/gallery/onions.jpeg" alt="no pizza">
+                <div class="desc">Onions Pizza</div>
+            </div>
+            <div class="gallery">
+                <img src="../img/gallery/pepperoni.jpeg" alt="no pizza">
+                <div class="desc">Pepperoni Pizza</div>
+            </div>
+            <div class="gallery">
+                <img src="../img/gallery/peppers.jpeg" alt="no pizza">
+                <div class="desc">Peppers Pizza</div>
+            </div>
+            <div class="gallery">
+                <img src="../img/gallery/pesto.jpeg" alt="no pizza">
+                <div class="desc">Pesto Pizza</div>
+            </div>
+            <div class="gallery">
+                <img src="../img/gallery/pineapple.jpeg" alt="no pizza">
+                <div class="desc">Hawaii Pizza</div>
+            </div>
+            <div class="gallery">
+                <img src="../img/gallery/sausage.jpeg" alt="no pizza">
+                <div class="desc">Sausage Pizza</div>
+            </div>
+            <div class="gallery">
+                <img src="../img/gallery/spinach.jpeg" alt="no pizza">
+                <div class="desc">Spinach Pizza</div>
+            </div>
+
+        </div>
     </main>
     <footer>
+        <br>
         <p>Ask me about pizza:</p>
         <a href="https://www.linkedin.com/in/nikolay-tokariev-671508196/" target="_blank"><img
-                src="./img/social/linkedin.png" height="64" width="64" alt="no linkedin icon"></a>
-        <a href="https://github.com/crowstrong" target="_blank"><img src="./img/social/github.png" height="64"
+                src="../img/social/linkedin.png" height="64" width="64" alt="no linkedin icon"></a>
+        <a href="https://github.com/crowstrong" target="_blank"><img src="../img/social/github.png" height="64"
                 width="64" alt="no git icon"></a>
     </footer>
 </body>
