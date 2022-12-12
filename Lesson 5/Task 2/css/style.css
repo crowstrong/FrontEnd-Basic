@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.block1 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: paleturquoise;
+}
+
+.block2 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 100px;
+    top: 125px;
+    background: grey;
+    
+}
+
+.block3 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 250px;
+    top: 275px;
+    background: purple;
+}
+
+
+.block4 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 375px;
+    top: 425px;
+    background: greenyellow;
+}

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.block1 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: red;
+}
+
+
+.block2 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    right: 0;
+    background: yellow;
+}
+
+.block3 {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    left: 0%;
+    top: 60%;
+    bottom: 0%;
+    background: paleturquoise;
+}
