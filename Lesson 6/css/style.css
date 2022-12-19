@@ -183,7 +183,7 @@ header {
     text-decoration: none;
 }
 
-.block-link-settings {
+.block-link, a {
     margin-top: 10px;
 }
 
@@ -208,7 +208,7 @@ header {
     width: 100%;
 }
 
-.p-title1 {
+.title1 {
     font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -216,7 +216,7 @@ header {
     line-height: 30px;
     text-align: center;
     color: #60C1BD;
-    padding-top: 297px;
+    padding-top: 250px;
 }
 
 .title-description1 {
@@ -229,7 +229,7 @@ header {
 .title-description2 {
     float: left;
     max-width: 541px;
-    margin-top: 200px;
+    margin-top: 190px;
     margin-left: -230px;
 }
 
@@ -240,55 +240,20 @@ header {
     margin-top: 110px;
 }
 
-.p-title2 {
+.title-description1, .title-description2, .title-description3, h3 {
+    margin-bottom: 10px;
+}
+
+.title2 {
     font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
     color: #798B56;
-    margin-bottom: 10px;
 }
 
-.p-title3 {
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 29px;
-    color: #284854;
-}
-
-.p-title4 {
-    font-family: 'Nunito Sans', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 27px;
-    color: #798B56;
-    margin-bottom: 10px;
-}
-
-.p-title5 {
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 29px;
-    color: #284854;
-}
-
-.p-title6 {
-    font-family: 'Nunito Sans', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 27px;
-    color: #798B56;
-    margin-bottom: 10px;
-}
-
-.p-title7 {
+.title3 {
     font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -325,38 +290,13 @@ header {
     margin-left: 150px;
 }
 
-
-
-.h3-title1 {
+.h3-title {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     color: #8BC441;
-    margin-bottom: 2px;
-}
-
-
-
-.h3-title2 {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 47px;
-    color: #8BC441;
-    margin-bottom: 2px;
-}
-
-.h3-title3 {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 47px;
-    color: #8BC441;
-    margin-bottom: 2px;
 }
 
 .underline {
@@ -379,15 +319,13 @@ header {
     margin-top: 78px;
 }
 
-.mission-link {
+.mission-subtitle {
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 30px;
     color: #60C1BD;
-    text-decoration: none;
-
 }
 
 .mission-title {
