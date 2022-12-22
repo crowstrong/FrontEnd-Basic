@@ -1,0 +1,519 @@
+/*  Settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.nav-settings {
+    margin-left: 140px;
+    margin-top: 30px;
+}
+
+.nav-footer-settings {
+    margin-left: 39px;
+}
+
+.footer-link-settings {
+    margin-top: 25px;
+}
+
+.address-settings {
+    margin-top: 4px;
+}
+
+/* Navigation */
+
+.nav-section {
+    padding-top: 23px;
+    background-color: #284854;
+}
+
+
+header {
+    display: block;
+    width: 1230px;
+    height: 81px;
+    border-radius: 100px;
+    background-color: #60C1BD;
+}
+
+
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    margin-left: 50px;
+    margin-right: 200px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nav-link {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #284854;
+    margin-left: 84px;
+    text-decoration: none;
+}
+
+.login-button[type="login"] {
+    display: inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    width: 77px;
+    height: 27px;
+    background: #60C1BD;
+    cursor: pointer;
+    border: 2px solid #FFFFFF;
+    transition: background 0.25s, color 0.25s;
+}
+
+.login-button[type="login"]:hover {
+    color: #284854;
+    background: #ffffff;
+}
+
+/* Main Block */
+
+.section-main {
+    background: #284854;
+    height: 799px;
+}
+
+.main-description {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 712px;
+    margin-right: 49px;
+    margin-top: 119px;
+    margin-left: 70px;
+
+}
+
+.main-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 102px;
+    margin-bottom: 60px;
+    color: #8BC441;
+}
+
+.main-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.main-img {
+    float: right;
+    max-width: 313px;
+    margin-top: 119px;
+    margin-left: 20px;
+}
+
+/* Block Veterinarians */
+
+.block-veterinarians {
+    float: left;
+    width: 506px;
+    height: 203px;
+    background: #F4F6F0;
+    margin-left: 173px;
+    margin-top: 250px;
+}
+
+/* Block Hospitals */
+
+.block-hospitals {
+    float: right;
+    width: 506px;
+    height: 203px;
+    background: #F4F6F0;
+    margin-right: 180px;
+    margin-top: 234px;
+}
+
+/* Blocks Settings */
+
+.block-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 43px;
+    color: #8BC441;
+}
+
+.block-link {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #60C1BD;
+    text-decoration: none;
+}
+
+.block-link, a {
+    margin-top: 10px;
+}
+
+.img-block {
+    float: left;
+    margin-left: 30px;
+    margin-top: 45px;
+}
+
+.block-discription {
+    float: left;
+    margin-top: 49px;
+    margin-left: 46px;
+}
+
+
+/* Title Section */
+
+.section-title {
+    background: #E5E5E5;
+    height: 1687px;
+    width: 100%;
+}
+
+.title1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: #60C1BD;
+    padding-top: 250px;
+}
+
+.title-description1 {
+    float: right;
+    max-width: 541px;
+    margin-right: 130px;
+    margin-top: 200px;
+}
+
+.title-description2 {
+    float: left;
+    max-width: 541px;
+    margin-top: 190px;
+    margin-left: -230px;
+}
+
+.title-description3 {
+    float: right;
+    max-width: 541px;
+    margin-right: 130px;
+    margin-top: 110px;
+}
+
+.title-description1, .title-description2, .title-description3, h3 {
+    margin-bottom: 10px;
+}
+
+.title2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #798B56;
+}
+
+.title3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #284854;
+}
+
+.h2-title1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 64px;
+    text-align: center;
+    color: #284854;
+}
+
+.img-title1 {
+    float: left;
+    margin-top: 143px;
+    margin-left: 150px;
+}
+
+.img-title2 {
+    float: right;
+    margin-top: 143px;
+    margin-right: 100px;
+}
+
+.img-title3 {
+    float: left;
+    margin-top: 120px;
+    margin-left: 150px;
+}
+
+.h3-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #8BC441;
+}
+
+.underline {
+    text-decoration: underline #60C1BD;
+}
+
+/* Mission Section */
+
+.section-mission {
+    background: #F4F6F0;
+    height: 601px;
+    width: 100%;
+
+}
+
+.mission-description {
+    float: right;
+    max-width: 512px;
+    margin-left: 191px;
+    margin-top: 78px;
+}
+
+.mission-subtitle {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #60C1BD;
+}
+
+.mission-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 64px;
+    color: #284854;
+    margin-top: 5px;
+}
+
+.mission-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #284854;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+.mission-button[type="button"] {
+    display: inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    color: #60C1BD;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    width: 130px;
+    height: 40px;
+    background: #F4F6F0;
+    cursor: pointer;
+    border: 2px solid #60C1BD;
+    transition: background 0.25s, color 0.25s;
+}
+
+.mission-button[type="button"]:hover {
+    color: #FFFFFF;
+    background: #60C1BD;
+}
+
+.mission-img {
+    float: left;
+    margin-top: -373px;
+    margin-left: 120px;
+}
+
+/* Section Green */
+
+.section-green {
+    background: #8BC441;
+    height: 438px;
+    width: 100%;
+}
+
+.green-description {
+    float: right;
+    max-width: 516px;
+    margin-left: 110px;
+}
+
+.green-pleft {
+    float: right;
+    max-width: 239px;
+    margin-top: 257px;
+    margin-right: -150px;
+}
+
+.green-pright {
+    float: right;
+    max-width: 239px;
+    margin-top: 257px;
+    margin-right: -545px;
+}
+
+.deco-p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.title-green {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 64px;
+    color: #FFFFFF;
+    margin-top: 86px;
+    margin-left: -203px;
+}
+
+.green-img {
+    float: left;
+    margin-top: 90px;
+    margin-left: 120px;
+}
+
+/* Footer */
+
+.footer-section {
+    background: #E5E5E5;
+    height: 445px;
+    width: 100%;
+}
+
+.veterinarians {
+    float: left;
+    max-width: 284px;
+    margin-top: 120px;
+    margin-left: 152px;
+    margin-right: 151px;
+}
+
+.hospitals {
+    float: left;
+    max-width: 284px;
+    margin-top: 120px;
+}
+
+.footer-nav {
+    float: left;
+    max-width: 572px;
+    margin-top: 71px;
+    margin-left: 115px;
+}
+
+.copyright {
+    float: left;
+    max-width: 106px;
+    margin-top: 37px;
+    margin-left: -530px;
+}
+
+.copyright-decoration {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #284854;
+}
+
+.footer-title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #284854;
+}
+
+.link-footer {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #60C1BD;
+    text-decoration: none;
+}
+
+.footer-img {
+    float: right;
+    margin-top: -140px;
+    margin-right: 275px;
+}
+
+.find-us {
+    float: right;
+    max-width: 327px;
+    margin-top: -233px;
+    margin-left: 91px;
+    margin-right: 60px;
+}
+
+.location {
+    margin-top: 25px;
+}
+
+.contact {
+    margin-top: 29px;
+}
