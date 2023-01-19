@@ -1,0 +1,374 @@
+@import "_reset";
+@import "_vars";
+@import "_content";
+@import "_mixins";
+
+/* Navigation */
+
+.nav-section {
+    padding-top: 23px;
+    background-color: $header-section-color;
+}
+
+header nav {
+    display: block;
+    width: 1230px;
+    height: 81px;
+    border-radius: 100px;
+    background-color: $blue-color;
+}
+
+.logo {
+    @include font-styles($roboto, normal, 400, 30px, 35px, $white-color);
+    padding-left: 50px;
+    padding-right: 200px;
+}
+
+.nav-link {
+    @include font-styles($natino, normal, 400, 18px, 25px, $header-section-color);
+    margin-left: 84px;
+}
+
+
+.login-button[type="login"] {
+    display: inline-block;
+    @include font-styles($natino, normal, 400, 14px, 19px, $white-color);
+    width: 77px;
+    height: 27px;
+    background: inherit;
+    cursor: pointer;
+    border: 2px solid $white-color;
+    transition: background 0.25s, color 0.25s;
+    &:hover {
+        color: $header-section-color;
+    background: $white-color;
+    }
+}
+
+
+/* Main Block */
+
+.section-main {
+    background: $header-section-color;
+    height: 799px;
+}
+
+.main-description {
+    display: inline-block;
+    max-width: 712px;
+    margin-top: 119px;
+    margin-left: 60px;
+    margin-right: 49px;
+
+}
+
+.main-title {
+    @include font-styles($roboto, normal, 400, 85px, 102px, $green-color);
+    margin-bottom: 60px;
+}
+
+.main-text {
+    @include font-styles($natino, normal, 400, 20px, 28px, $white-color);
+    padding-right: 219px;
+}
+
+.main-img {
+    display: inline-block;
+    max-width: 313px;
+    margin-top: 161px;
+    margin-left: 45px;
+}
+
+/* Block Veterinarians */
+
+.block-veterinarians {
+    float: left;
+    width: 506px;
+    background: $header-lr-block-color;
+    margin-left: 172px;
+    margin-top: 220px;
+}
+
+/* Block Hospitals */
+
+.block-hospitals {
+    float: right;
+    width: 506px;
+    background: $header-lr-block-color;
+    margin-right: 172px;
+    margin-top: 220px;
+}
+
+/* Blocks Settings */
+
+.block-title {
+    @include font-styles($natino, normal, 400, 37px, 43px, $green-color);
+}
+
+.block-link {
+    @include font-styles($natino, normal, 400, 20px, 27px, $blue-color);
+}
+
+
+.img-block {
+    float: left;
+    padding-left: 30px;
+    padding-top: 45px;
+}
+
+.block-discription {
+    float: left;
+    padding: 48px 31px 48px 46px;
+}
+
+/* Title Section */
+
+.section-title {
+    background: $title-section-color;
+    height: 1687px;
+    width: 100%;
+}
+
+.title1 {
+    @include font-styles($natino, normal, 700, 22px, 30px, $blue-color);
+    text-align: center;
+    padding-top: 250px;
+}
+
+.title-description1 {
+    float: right;
+    max-width: 541px;
+    margin-top: 159px;
+    margin-right: 120px;
+    margin-bottom: 141px;
+}
+
+.title-description2 {
+    float: left;
+    max-width: 541px;
+    margin-right: 100px;
+    margin-left: 240px;
+    margin-bottom: 120px;
+}
+
+.title-description3 {
+    float: right;
+    max-width: 541px;
+    margin-right: 130px;
+    margin-right: 115px;
+}
+
+.title-description1, .title-description2, .title-description3, h3 {
+    padding-bottom: 10px;
+}
+
+.title2 {
+    @include font-styles($natino, normal, 700, 20px, 27px, $title-green-color);
+}
+
+.title3 {
+    @include font-styles($natino, normal, 400, 16px, 29px, $header-section-color);
+}
+
+.h2-title1 {
+    @include font-styles($natino, normal, 700, 55px, 64px, $header-section-color);
+    text-align: center;
+}
+
+.img-title1 {
+    float: left;
+    margin-top: 100px;
+    margin-left: 170px;
+    margin-right: 130px;
+    margin-bottom: 130px;
+}
+
+.img-title2 {
+    float: right;
+    margin-bottom: 80px;
+    margin-right: 50px;
+}
+
+.img-title3 {
+    float: left;
+    margin-left: 170px;
+    margin-right: 130px;
+}
+
+.h3-title {
+    @include font-styles($roboto, normal, 700, 40px, 47px, $green-color);
+}
+
+.underline {
+    text-decoration: underline $blue-color;
+}
+
+/* Mission Section */
+
+.section-mission {
+    background: $header-lr-block-color;
+    height: 601px;
+    width: 100%;
+
+}
+
+.mission-description {
+    float: right;
+    max-width: 512px;
+    margin-top: 78px;
+}
+
+.mission-subtitle {
+    @include font-styles($natino, normal, 700, 22px, 30px, $blue-color);
+}
+
+.mission-title {
+    @include font-styles($roboto, normal, 700, 55px, 64px, $header-section-color);
+    margin-top: 5px;
+}
+
+.mission-text {
+    @include font-styles($natino, normal, 400, 18px, 32px, $header-section-color);
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+
+.mission-button[type="button"] {
+    display: inline-block;
+    @include font-styles($natino, normal, 400, 16px, 22px, $blue-color);
+    width: 130px;
+    height: 40px;
+    background: $header-lr-block-color;
+    cursor: pointer;
+    border: 2px solid $blue-color;
+    transition: background 0.25s, color 0.25s;
+    &:hover {
+        color: $white-color;
+        background: $blue-color;
+    }
+}
+
+.mission-img {
+    float: left;
+    margin-top: 83px;
+    margin-left: 120px;
+}
+
+/* Section Green */
+
+.section-green {
+    background: $green-color;
+    height: 438px;
+    width: 100%;
+}
+
+.green-description {
+    float: right;
+    max-width: 516px;   
+    margin-top: 86px; 
+    margin-right: 150px;
+}
+
+.green-pleft {
+    position: absolute;
+    max-width: 239px;
+    margin: 271px 132px 86px 585px;
+
+}
+
+.green-pright {
+    position: absolute;
+    max-width: 239px;
+    margin: 271px 170px 64px 894px;
+}
+
+.deco-p {
+    @include font-styles($natino, normal, 400, 20px, 27px, $white-color);
+}
+
+.title-green {
+    @include font-styles($roboto, normal, 400, 55px, 64px, $white-color);
+}
+
+.green-img {
+    float: left;
+    margin: 90px 150px 80px 185px;
+}
+
+/* Footer */
+
+.footer-section {
+    background: $title-section-color;
+    height: 445px;
+    width: 100%;
+}
+
+.veterinarians {
+    float: left;
+    max-width: 284px;
+    margin-top: 100px;
+    margin-bottom: 71px;
+    margin-left: 152px;
+    margin-right: 151px;
+}
+
+.hospitals {
+    float: left;
+    max-width: 284px;
+    margin-top: 100px;
+    margin-bottom: 71px;
+}
+
+.footer-nav {
+    float: left;
+    max-width: 572px;
+    margin-left: 110px;
+    margin-right: 22px;
+    margin-bottom: 37px;
+}
+
+.copyright {
+    float: left;
+    max-width: 106px;
+    margin-left: 145px;
+}
+
+.copyright-decoration {
+    @include font-styles($natino, normal, 400, 13px, 18px, $header-section-color);
+}
+
+.footer-title {
+    @include font-styles($natino, normal, 400, 13px, 18px, $header-section-color);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.link-footer {
+    @include font-styles($natino, normal, 400, 13px, 18px, $blue-color);
+}
+
+.footer-img {
+    display: inline-block;
+    margin-top: 110px;
+    margin-bottom: 55px;
+    margin-right: 97px;
+}
+
+.find-us {
+    float: right;
+    max-width: 327px;
+    margin-top: 120px;
+    margin-right: 69px;
+
+}
+
+.location {
+    padding-top: 25px;
+}
+
+.contact {
+    padding-top: 29px;
+}
+
+
