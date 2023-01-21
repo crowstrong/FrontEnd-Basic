@@ -6,17 +6,17 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    padding-top: 10px;
+}
+
 .container {
     display: block;
-    max-width: 1200px;
+    max-width: 1250px;
     margin: 0 auto;
 }
 
-.clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-}
 
 .nav-settings {
     margin-left: 140px;
@@ -24,26 +24,26 @@
 }
 
 .nav-footer-settings {
-    margin-left: 39px;
+    padding-left: 39px;
 }
 
 .footer-link-settings {
-    margin-top: 25px;
+    padding-top: 25px;
 }
 
 .address-settings {
-    margin-top: 4px;
+    padding-top: 4px;
 }
 
 /* Navigation */
+
 
 .nav-section {
     padding-top: 23px;
     background-color: #284854;
 }
 
-
-header {
+header nav {
     display: block;
     width: 1230px;
     height: 81px;
@@ -51,17 +51,14 @@ header {
     background-color: #60C1BD;
 }
 
-
-
 .logo {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 35px;
-    margin-left: 50px;
-    margin-right: 200px;
-    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 200px;
     color: #FFFFFF;
 }
 
@@ -86,7 +83,7 @@ header {
     line-height: 19px;
     width: 77px;
     height: 27px;
-    background: #60C1BD;
+    background: inherit;
     cursor: pointer;
     border: 2px solid #FFFFFF;
     transition: background 0.25s, color 0.25s;
@@ -106,11 +103,10 @@ header {
 
 .main-description {
     display: inline-block;
-    vertical-align: top;
     max-width: 712px;
-    margin-right: 49px;
     margin-top: 119px;
-    margin-left: 70px;
+    margin-left: 60px;
+    margin-right: 49px;
 
 }
 
@@ -131,13 +127,14 @@ header {
     font-size: 20px;
     line-height: 28px;
     color: #FFFFFF;
+    padding-right: 219px;
 }
 
 .main-img {
-    float: right;
+    display: inline-block;
     max-width: 313px;
-    margin-top: 119px;
-    margin-left: 20px;
+    margin-top: 161px;
+    margin-left: 45px;
 }
 
 /* Block Veterinarians */
@@ -145,10 +142,9 @@ header {
 .block-veterinarians {
     float: left;
     width: 506px;
-    height: 203px;
     background: #F4F6F0;
-    margin-left: 173px;
-    margin-top: 250px;
+    margin-left: 172px;
+    margin-top: 220px;
 }
 
 /* Block Hospitals */
@@ -156,10 +152,9 @@ header {
 .block-hospitals {
     float: right;
     width: 506px;
-    height: 203px;
     background: #F4F6F0;
-    margin-right: 180px;
-    margin-top: 234px;
+    margin-right: 172px;
+    margin-top: 220px;
 }
 
 /* Blocks Settings */
@@ -180,23 +175,18 @@ header {
     font-size: 20px;
     line-height: 27px;
     color: #60C1BD;
-    text-decoration: none;
 }
 
-.block-link, a {
-    margin-top: 10px;
-}
 
 .img-block {
     float: left;
-    margin-left: 30px;
-    margin-top: 45px;
+    padding-left: 30px;
+    padding-top: 45px;
 }
 
 .block-discription {
     float: left;
-    margin-top: 49px;
-    margin-left: 46px;
+    padding: 48px 31px 48px 46px;
 }
 
 
@@ -222,26 +212,28 @@ header {
 .title-description1 {
     float: right;
     max-width: 541px;
-    margin-right: 130px;
-    margin-top: 200px;
+    margin-top: 159px;
+    margin-right: 120px;
+    margin-bottom: 141px;
 }
 
 .title-description2 {
     float: left;
     max-width: 541px;
-    margin-top: 190px;
-    margin-left: -230px;
+    margin-right: 100px;
+    margin-left: 240px;
+    margin-bottom: 120px;
 }
 
 .title-description3 {
     float: right;
     max-width: 541px;
     margin-right: 130px;
-    margin-top: 110px;
+    margin-right: 115px;
 }
 
 .title-description1, .title-description2, .title-description3, h3 {
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .title2 {
@@ -274,20 +266,22 @@ header {
 
 .img-title1 {
     float: left;
-    margin-top: 143px;
-    margin-left: 150px;
+    margin-top: 100px;
+    margin-left: 170px;
+    margin-right: 130px;
+    margin-bottom: 130px;
 }
 
 .img-title2 {
     float: right;
-    margin-top: 143px;
-    margin-right: 100px;
+    margin-bottom: 80px;
+    margin-right: 50px;
 }
 
 .img-title3 {
     float: left;
-    margin-top: 120px;
-    margin-left: 150px;
+    margin-left: 170px;
+    margin-right: 130px;
 }
 
 .h3-title {
@@ -315,7 +309,6 @@ header {
 .mission-description {
     float: right;
     max-width: 512px;
-    margin-left: 191px;
     margin-top: 78px;
 }
 
@@ -372,7 +365,7 @@ header {
 
 .mission-img {
     float: left;
-    margin-top: -373px;
+    margin-top: 83px;
     margin-left: 120px;
 }
 
@@ -386,22 +379,22 @@ header {
 
 .green-description {
     float: right;
-    max-width: 516px;
-    margin-left: 110px;
+    max-width: 516px;   
+    margin-top: 86px; 
+    margin-right: 150px;
 }
 
 .green-pleft {
-    float: right;
+    position: absolute;
     max-width: 239px;
-    margin-top: 257px;
-    margin-right: -150px;
+    margin: 271px 132px 86px 585px;
+
 }
 
 .green-pright {
-    float: right;
+    position: absolute;
     max-width: 239px;
-    margin-top: 257px;
-    margin-right: -545px;
+    margin: 271px 170px 64px 894px;
 }
 
 .deco-p {
@@ -420,14 +413,11 @@ header {
     font-size: 55px;
     line-height: 64px;
     color: #FFFFFF;
-    margin-top: 86px;
-    margin-left: -203px;
 }
 
 .green-img {
     float: left;
-    margin-top: 90px;
-    margin-left: 120px;
+    margin: 90px 150px 80px 185px;
 }
 
 /* Footer */
@@ -441,7 +431,8 @@ header {
 .veterinarians {
     float: left;
     max-width: 284px;
-    margin-top: 120px;
+    margin-top: 100px;
+    margin-bottom: 71px;
     margin-left: 152px;
     margin-right: 151px;
 }
@@ -449,21 +440,22 @@ header {
 .hospitals {
     float: left;
     max-width: 284px;
-    margin-top: 120px;
+    margin-top: 100px;
+    margin-bottom: 71px;
 }
 
 .footer-nav {
     float: left;
     max-width: 572px;
-    margin-top: 71px;
-    margin-left: 115px;
+    margin-left: 110px;
+    margin-right: 22px;
+    margin-bottom: 37px;
 }
 
 .copyright {
     float: left;
     max-width: 106px;
-    margin-top: 37px;
-    margin-left: -530px;
+    margin-left: 145px;
 }
 
 .copyright-decoration {
@@ -493,27 +485,27 @@ header {
     font-size: 13px;
     line-height: 18px;
     color: #60C1BD;
-    text-decoration: none;
 }
 
 .footer-img {
-    float: right;
-    margin-top: -140px;
-    margin-right: 275px;
+    display: inline-block;
+    margin-top: 110px;
+    margin-bottom: 55px;
+    margin-right: 97px;
 }
 
 .find-us {
     float: right;
     max-width: 327px;
-    margin-top: -233px;
-    margin-left: 91px;
-    margin-right: 60px;
+    margin-top: 120px;
+    margin-right: 69px;
+
 }
 
 .location {
-    margin-top: 25px;
+    padding-top: 25px;
 }
 
 .contact {
-    margin-top: 29px;
+    padding-top: 29px;
 }
