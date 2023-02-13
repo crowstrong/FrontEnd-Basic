@@ -38,8 +38,7 @@ a {
   line-height: 22px;
   text-align: center;
   letter-spacing: 1px;
-  -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
+  text-decoration-line: line-through;
   color: #CCCCCC;
 }
 
